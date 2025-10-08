@@ -2,7 +2,6 @@ package app.almoxarifado.main;
 
 import app.almoxarifado.service.ServiceAlmoxarifado;
 import app.almoxarifado.view.UserIF;
-
 import java.sql.SQLException;
 
 import static app.almoxarifado.view.UserIF.input;

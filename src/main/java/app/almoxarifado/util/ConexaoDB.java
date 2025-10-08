@@ -13,4 +13,13 @@ public class ConexaoDB {
     public static Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
+
+    public static void main(String[] args) {
+        try{
+            conectar();
+            System.out.println("Conexão estabelecida com sucesso!!!");
+        } catch (SQLException e) {
+            System.out.println("Falha na Conexão!!!");
+        }
+    }
 }
